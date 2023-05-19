@@ -28,7 +28,7 @@ function submit(){
     let rateView = document.createElement("p");
     sections[0].appendChild(rateView);
     rateView.innerHTML=`You selected ${note} of 5`;
-    img.src="../images/illustration-thank-you.svg";
+    img.src="./images/illustration-thank-you.svg";
     //ESTILIZAÇÕES
     img.style.backgroundColor="#100f13";
     sections[0].style.justifyContent="center";
