@@ -45,4 +45,7 @@ function submit(){
     //REMOÇÃO DE ITENS NÃO MAIS NECESSÁRIOS
     sections[2].remove();
     btn.remove();
+    setTimeout((x)=>{
+        location.reload();
+    },5000);
 }
